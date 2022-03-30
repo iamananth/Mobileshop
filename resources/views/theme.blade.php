@@ -46,7 +46,8 @@
                   <li><a class="dropdown-item" href="/contact">Contact Us</a></li>
                   <li><a class="dropdown-item" href="#">support</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/signup">Sign UP/Sign In</a></li>
+                  <li><a class="dropdown-item" href="/signup">Sign UP</a></li>
+                  <li><a class="dropdown-item" href="/login">Login</a></li>
                 </ul>
               </li>
             </ul>

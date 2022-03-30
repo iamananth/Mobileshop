@@ -31,6 +31,9 @@ Route::get('/samsung', function () {
 Route::get('/signup', function () {
     return view('signup');
 });
+Route::get('/login', function () {
+    return view('login');
+});
 Route::get('/apple', function () {
     return view('apple');
 });
@@ -40,3 +43,8 @@ Route::get('/oneplus', function () {
 Route::get('/oppo', function () {
     return view('oppo');
 });
+use App\Http\Controllers\AuthController;
+Route::post('/signup',[AuthController::class,'signup']);
+Route::get('/login',[AuthController::class,'login']);
+Route::post('/register-user',[AuthController::class,'registerUser'])->name
+('register-user');
