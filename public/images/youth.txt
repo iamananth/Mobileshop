@@ -1,0 +1,10 @@
+create table College_Details(c_id varchar2(20) primary key,c_name varchar2(20),c_addr varchar2(20),pincode number);
+
+
+create table Student_Details(s_id varchar2(20),s_name varchar2(20),age number,college_id varchar2(20) references College_Details(c_id),email varchar2(50),phone_no number,gender char(10));
+
+create table itemyf(item_id varchar2(20) primary key,item_name varchar2(20),Number_of_people int,type varchar2(20),itemtime varchar2(20),i_date date,venue varchar2(20));
+create table Registration(reg_id varchar2(20),s_name varchar2(20),c_id varchar2(20),item_id varchar2(20),primary key(reg_id,s_name,c_id,item_id));
+
+
+insert into itemyf values('IT01','Poem Recitation','1','Individual','10:00 AM','01-Apr-22','Stage1');
