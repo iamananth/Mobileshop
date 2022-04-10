@@ -3,12 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class ContactController extends Controller
 {
     public function index()
     {
-        $fview=contact::all();
+        $fview=Contact::all();
         return view('fview',compact('fview'));
     }
     function logout(){
@@ -20,29 +21,30 @@ class ContactController extends Controller
     public function delete($id)
     {
         echo("hai");
-        contact::find($id)
+        Contact::find($id)
                 ->where('id', $id)
                 ->delete();
                 return redirect()->back();
     }
     public function store(Request $request)
     {
-       // return $request->input();
         //validate requests
         $request->validate([
         'name'=>'required',
         'email'=>'required|email',
         'phoneno'=>'required|min:10|max:10',
-        'Event'=>'required',
+        'subject'=>'required',
+        'message'=>'required'
 
 
         ]);
         //insert into database
-        $app=new contact;
+        $app=new Contact;
         $app->name=$request->name;
         $app->email=$request->email;
         $app->phoneno=$request->phoneno;
-        $app->Event=$request->Event;
+        $app->subject=$request->subject;
+        $app->message=$request->message;
     
         $save=$app->save();
         //return view('contactus');

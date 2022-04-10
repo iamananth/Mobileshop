@@ -10,8 +10,8 @@
                     <th>Name</th>
                     <th>Email</th>
                     <th>Phone Number</th>
-                    <th>Feedbacks</th>
-                    <th></th>
+                    <th>Subject</th>
+                    <th>Message</th>
                     <th></th>
                    
                 </tr>
@@ -22,7 +22,8 @@
                     <td>{{$fview->name}}</td>
                     <td>{{$fview->email}}</td>
                     <td>{{$fview->phoneno}}</td>
-                    <td>{{$fview->Event}}</td>
+                    <td>{{$fview->subject}}</td>
+                    <td>{{$fview->message}}</td>
 
                     
                     

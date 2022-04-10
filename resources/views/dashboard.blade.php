@@ -28,7 +28,7 @@
                 
                 <td>admin123@gmail.com</td>
                
-                <td><a href="/admin"><button class="btn btn-danger">Logout</button></a></td>
+                <td><a href="/welcome"><button class="btn btn-danger">Logout</button></a></td>
              </tr>
             </tbody>
             </table>

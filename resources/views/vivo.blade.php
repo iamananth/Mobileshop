@@ -29,60 +29,60 @@
                 <table class="table">
                     <tr>
                         <td><div class="card" style="width: 18rem;">
-                            <img height="200" src="https://i2.wp.com/www.fb101.com/wp-content/uploads/2020/01/RotimaticTop.jpg?resize=678%2C298&ssl=1" class="card-img-top" alt="...">
+                            <img height="200" src="{{asset('images\v23e 5G.png')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Special Offer</h5>
-                              <p class="card-text">Price  $20</p>
-                              <a href="booking.php" class="btn btn-primary">Order Now</a>
+                              <h5 class="card-title">Vivo V23e G</h5>
+                              <p class="card-text">Price ₹30000</p>
+                              <a href="/booking" class="btn btn-primary">Order Now</a>
                             </div>
                           </div>
                           </td>
                         <td><div class="card" style="width: 18rem;">
-                            <img height="200" src="https://thumbs.dreamstime.com/b/household-kitchen-appliances-table-indoors-interior-element-different-household-kitchen-appliances-table-indoors-118219687.jpg class="card-img-top" alt="...">
+                            <img height="200" src="{{asset('images\v23pro.png')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Special Offer</h5>
-                              <p class="card-text">Price $100 </p>
-                              <a href="booking.php" class="btn btn-primary">Order Now</a>
+                              <h5 class="card-title">Vivo V23Pro</h5>
+                              <p class="card-text">Price ₹28000 </p>
+                              <a href="/booking" class="btn btn-primary">Order Now</a>
                             </div>
                           </div></td>
                        
                         <td><div class="card" style="width: 18rem;">
-                            <img height="200" src="https://bestappliances.net/wp-content/uploads/2020/12/modern-appliances-1.png" class="card-img-top" alt="...">
+                            <img height="200" src="{{asset('images\v235g.png')}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Special Offer</h5>
-                              <p class="card-text">Price $80</p>
-                              <a href="booking.php" class="btn btn-primary">Order Now</a>
+                              <h5 class="card-title">Vivo V235 G</h5>
+                              <p class="card-text">Price ₹24000</p>
+                              <a href="/booking" class="btn btn-primary">Order Now</a>
                             </div>
                           </div></td>
                         </tr>
                         <tr>
                         <td>
                             <div class="card" style="width: 18rem;">
-                                <img height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-2qjniZaYsCpVRIs9rPzrps4sKVAytBYKKLHWqFfEADv0oWHmH82KIT2aJaofZM5JmNE&usqp=CAU" class="card-img-top" alt="...">
+                                <img height="200" src="{{asset('images\t15g.png')}}" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Special Offer</h5>
-                                  <p class="card-text">Price $220</p>
-                                  <a href="booking.php" class="btn btn-primary">Order Now</a>
+                                  <h5 class="card-title">Vivo T15</h5>
+                                  <p class="card-text">Price ₹20000</p>
+                                  <a href="/booking" class="btn btn-primary">Order Now</a>
                                 </div>
                               </div>
                         </td>
                         <td>
                             <div class="card" style="width: 18rem;">
-                                <img height="200" src="https://uk.jura.com/-/media/global/images/home-products/z-line-2018/z8-alu/packshot_z8_alu.jpg?la=en&hash=9183ED68E9CF1E8D7746E8A3C27A52DE1750E50D" class="card-img-top" alt="...">
+                                <img height="200" src="{{asset('images\x70pro.png')}}" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Special Offer</h5>
-                                  <p class="card-text">Price $150</p>
-                                  <a href="booking.php" class="btn btn-primary">Order Now</a>
+                                  <h5 class="card-title">Vivo X70pro</h5>
+                                  <p class="card-text">Price ₹17000</p>
+                                  <a href="/booking" class="btn btn-primary">Order Now</a>
                                 </div>
                               </div>
                         </td>
                         <td>
                             <div class="card" style="width: 18rem;">
-                                <img height="200" src="https://blog.pricekart.com/2019/02/01-Must-Have-Home-Appliances-That-Every-Modern-House-Needs.jpg" class="card-img-top" alt="...">
+                                <img height="200" src="{{asset('images\y755g.png')}}" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Special Offer</h5>
-                                  <p class="card-text">Price $90</p>
-                                  <a href="booking.php" class="btn btn-primary">Order Now</a>
+                                  <h5 class="card-title">Vivo Y755 G</h5>
+                                  <p class="card-text">Price ₹14000</p>
+                                  <a href="/booking" class="btn btn-primary">Order Now</a>
                                 </div>
                               </div>
                         </td>

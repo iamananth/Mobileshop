@@ -33,7 +33,7 @@ class BookingController extends Controller
          'name'=>'required',
          'phone'=>'required|min:10|max:10|unique:bookings',
          'email'=>'required|email|unique:bookings',
-         'Address'=>'required',
+         'address'=>'required',
          'district'=>'required',
          'state'=>'required',
          'date'=>'required'

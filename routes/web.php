@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\BookingController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/welcome', function () {
     return view('welcome');
 });
 Route::get('/booking', function () {
@@ -49,10 +56,7 @@ Route::get('/dashboard', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\BookingController;
-use App\Http\Controllers\ContactController;
+
 Route::post('/signup',[AuthController::class,'signup']);
 Route::get('/login',[AuthController::class,'login']);
 Route::post('/register-user',[AuthController::class,'registerUser'])->name
@@ -62,7 +66,6 @@ Route::post('/storebooking',[BookingController::class,'store']);
 Route::post('/storecontact',[ContactController::class,'store']);
 
 Route::get('/admin/bookingview',[BookingController::class ,'index']);
-Route::get('/admin/fview',[ContactController::class ,'index']);
 Route::get('/admin/fview',[ContactController::class ,'index']);
 Route::get('/admin/bookingview',[BookingController::class ,'index']);
 Route::get('delete/{id}',[ContactController::class ,'delete']);
