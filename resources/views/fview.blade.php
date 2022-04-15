@@ -30,7 +30,7 @@
                     
                     <!-- <td><button class="btn btn-success" href="/delete/{{$fview->id}}" >Delete</button></td>
                      -->
-                    <td> <a class="btn btn-danger"  onclick="return confirm('Are you sure you want to delete ?')" type="submit" href="/delete/{{$fview->id}}">Delete</a> </td>
+                    <td> <button class="btn btn-danger"  onclick="return confirm('Are you sure you want to delete ?')" type="submit" href="/delete/{{$fview->id}}">Delete</button></td>
                 </tr>
                 @endforeach
             </table>

@@ -17,7 +17,7 @@
            
 
             <table class="table table-hover">
-            <thead class="bg-success">
+            <thead class="bg-light">
               
                 <th>Email</th>
                 
@@ -36,11 +36,11 @@
             <table class="table table-hover">
             <tr>
               <td>View Feedbacks</td>
-              <td><a href="/admin/fview"><button class="btn btn-warning">View</button></a></td>
+              <td><a href="/admin/fview"><button class="btn btn-info">View</button></a></td>
             </tr>
             <tr>
               <td>View Bookings</td>
-              <td><a href="/admin/bookingview"><button class="btn btn-warning">View</button></a></td>
+              <td><a href="/admin/bookingview"><button class="btn btn-info">View</button></a></td>
             </tr>
             <tr>
             <!-- <td><a href="/admin/register"> <button class="btn btn-danger">Add Admin</button>  </a></td> -->

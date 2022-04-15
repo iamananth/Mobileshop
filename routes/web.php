@@ -70,6 +70,7 @@ Route::get('/admin/fview',[ContactController::class ,'index']);
 Route::get('/admin/bookingview',[BookingController::class ,'index']);
 Route::get('delete/{id}',[ContactController::class ,'delete']);
 Route::get('bdelete/{id}',[BookingController::class ,'delete']);
+Route::post('/getitem',[BookingController::class ,'getitem']);
 
 Route::get('/BookingAccepted',[BookingController::class ,'StatAccepted']);
 Route::get('/BookingRejected',[BookingController::class ,'StatRejected']);

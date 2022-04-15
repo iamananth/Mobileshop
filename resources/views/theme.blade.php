@@ -44,10 +44,10 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   <li><a class="dropdown-item" href="/admin">Admin</a></li>
                   <li><a class="dropdown-item" href="/contact">Contact Us</a></li>
-                  <li><a class="dropdown-item" href="#">support</a></li>
+                  {{-- <li><a class="dropdown-item" href="#">support</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="/signup">Sign UP</a></li>
-                  <li><a class="dropdown-item" href="/login">Login</a></li>
+                  <li><a class="dropdown-item" href="/login">Login</a></li> --}}
                 </ul>
               </li>
             </ul>
